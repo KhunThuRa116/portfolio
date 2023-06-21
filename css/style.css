@@ -262,6 +262,46 @@ input[type=text]:focus, input[type=password]:focus {
 }
 /* Contact End */
 
+/* Hobbies Css Start */
+
+.slider .slide-track .slide img {
+  border-radius: 40%;
+  width: 200px;
+  height: 180px;
+  animation: scroll 60s linear infinite;
+  cursor: pointer;
+
+}
+
+.slider .slide-track .slide img:hover {
+  border-radius: 50%;
+  width: 202px;
+  height: 180px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(201, 175, 175); 
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 10px;
+  background-color: rgba(77, 68, 68, 0.5);
+  padding: 4em 2em;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+
+/* Hobbies Css End  */
+
+
 /* Footer */
 
 footer{
